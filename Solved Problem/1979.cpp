@@ -10,11 +10,11 @@ public:
         int temp;
         for(int i=0;i<nums.size();i++)
         {
-            if(nums[i]>=_max)_max=nums[i];
-            if(nums[i]<=_min) _min=nums[i];
+            if(nums[i]>=_max)_max=nums[i]; //tulona kore max bair korsi
+            if(nums[i]<=_min) _min=nums[i]; //tulona kore min bair krsi
         }
         if(_max%_min==0) return _min;
-        while(_max%_min!=0)
+        while(_max%_min!=0) //gcd ber korar chotobelar niom.
         {
             temp=_max%_min;
             _max=_min;
