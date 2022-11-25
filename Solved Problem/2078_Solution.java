@@ -22,6 +22,6 @@ class Solution2078 {
     {
         Solution2078 solution = new Solution2078();
         int [] array = {1,1,1,6,1,1,1};
-        System.out.println(solution.maxDistance(array));
+        System.out.println("Max number is "+ solution.maxDistance(array));
     }
 }
